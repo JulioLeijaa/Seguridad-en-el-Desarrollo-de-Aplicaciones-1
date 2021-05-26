@@ -42,8 +42,9 @@ Instalaciones y configuraciones
 -Ahora levantamos el servidor de forma local:
   php artisan serve
  -El servidor estará levantado y listo para consumir la base de datos por medio de APIs
-##
-##Rutas para consumir
+
+
+Rutas para consumir
 
 
 Adonis
@@ -57,7 +58,9 @@ Adonis
   JSON: {"nombre":"", "correo":"", telefono: 123}
 
 -obtener usuarios:
+
   END POINT: http://127.0.0.1:3333/contacto
+
   HTTP METHOD: GET
 
 
@@ -65,22 +68,32 @@ Adonis
 Laravel
 
 -crear usuarios:
+
   END POINT: http://127.0.0.1:8000/api/contacto
+ 
   HTTP METHOD: POST
+
   JSON: {"nombre":"", "correo":"", telefono: 123}
 
 -obtener usuarios:
+
   END POINT: http://127.0.0.1:8000/api/contacto
+
   HTTP METHOD: GET
 
 
 Flask
 
 -crear usuarios:
+
   END POINT: http://127.0.0.1:5000/contacto
+
   HTTP METHOD: POST
+
   JSON: {"nombre":"", "correo":"", telefono: 123}
 
 -obtener usuarios:
+
   END POINT: http://127.0.0.1:5000/contacto
+
   HTTP METHOD: GET
