@@ -4,7 +4,6 @@ El Objetivo es conocer la instalación y configuración de los framework, así c
 
 Los 3 frameworks consumen la base de datos en PostgreSQL y, por lo tanto, la misma tabla (contactos).
 
-##Instalaciones.
 ##PYTHON
 ##Comenzamos con Python, tenemos que instalar Fask como API con el siguiente comando:
   pip install flask-restful
