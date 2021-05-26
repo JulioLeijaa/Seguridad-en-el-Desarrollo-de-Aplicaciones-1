@@ -44,7 +44,9 @@ Los 3 frameworks consumen la base de datos en PostgreSQL y, por lo tanto, la mis
  -El servidor estará levantado y listo para consumir la base de datos por medio de APIs
 ##
 ##Rutas para consumir
-##Adonis
+
+
+Adonis
  -crear usuarios:
   END POINT: http://127.0.0.1:3333/contacto
   HTTP METHOD: POST
@@ -52,8 +54,10 @@ Los 3 frameworks consumen la base de datos en PostgreSQL y, por lo tanto, la mis
 -obtener usuarios:
   END POINT: http://127.0.0.1:3333/contacto
   HTTP METHOD: GET
-##
-##Laravel
+
+
+
+Laravel
 -crear usuarios:
   END POINT: http://127.0.0.1:8000/api/contacto
   HTTP METHOD: POST
@@ -61,7 +65,9 @@ Los 3 frameworks consumen la base de datos en PostgreSQL y, por lo tanto, la mis
 -obtener usuarios:
   END POINT: http://127.0.0.1:8000/api/contacto
   HTTP METHOD: GET
-##Flask
+
+
+Flask
 -crear usuarios:
   END POINT: http://127.0.0.1:5000/contacto
   HTTP METHOD: POST
