@@ -17,12 +17,20 @@ Los 3 frameworks consumen la base de datos en PostgreSQL y, por lo tanto, la mis
   from models import db, ContactoModel y db.create_all()
 -Y ahora ejecutamos el siguiente comando para levantar el servidor:
   python app.py
+-El servidor estará levantado y listo para consumir la base de datos por medio de APIs
 ##
 ##ADONIS
 -Una vez clonado el proyecto, instalamos los módulos necesarios de node con:
   npm install
 -Ahora instalamos el paquete de postgres, con el cual el proyecto podrá utilizar la base de datos:
   npm i postgres
+-Editamos el archivo .env, en este se escriben las configuraciones a la base de datos 
+ y se agregan los datos conforme el nombre d esus variables:
+  DB_CONNECTION=pg, DB_HOST=127.0.0.1, DB_PORT=5432, DB_USER=postgres, DB_PASSWORD=admin, DB_DATABASE=prueba
+-Si queremos realizar la migracion desde este framework ejecutamos el siguiente contacto:
+  adonis migration:run
+-Ahora levantamos el servidor de adonis: adonis serve --dev
+-El servidor estará levantado y listo para consumir la base de datos por medio de APIs
 ##
 ##LARAVEL
  
