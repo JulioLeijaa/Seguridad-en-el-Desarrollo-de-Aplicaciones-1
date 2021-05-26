@@ -42,6 +42,6 @@ Los 3 frameworks consumen la base de datos en PostgreSQL y, por lo tanto, la mis
 -Ahora levantamos el servidor de forma local:
   php artisan serve
  -El servidor estará levantado y listo para consumir la base de datos por medio de APIs
- 
- 
- 
+ ##
+ ##Rutas para consumir
+ -
