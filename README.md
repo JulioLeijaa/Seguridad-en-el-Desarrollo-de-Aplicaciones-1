@@ -49,8 +49,11 @@ Instalaciones y configuraciones
 Adonis
 
 -crear usuarios:
+
   END POINT: http://127.0.0.1:3333/contacto
+
   HTTP METHOD: POST
+
   JSON: {"nombre":"", "correo":"", telefono: 123}
 
 -obtener usuarios:
