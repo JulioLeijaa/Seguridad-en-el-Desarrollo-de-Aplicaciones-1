@@ -4,7 +4,7 @@ El Objetivo es conocer la instalación y configuración de los framework, así c
 
 Los 3 frameworks consumen la base de datos en PostgreSQL y, por lo tanto, la misma tabla (contactos).
 
-##Instalaciones y configuraciones
+Instalaciones y configuraciones
 
 ##PYTHON
 -Comenzamos con Python, tenemos que instalar Fask como API con el siguiente comando:
@@ -51,6 +51,7 @@ Adonis
   END POINT: http://127.0.0.1:3333/contacto
   HTTP METHOD: POST
   JSON: {"nombre":"", "correo":"", telefono: 123}
+
 -obtener usuarios:
   END POINT: http://127.0.0.1:3333/contacto
   HTTP METHOD: GET
@@ -62,6 +63,7 @@ Laravel
   END POINT: http://127.0.0.1:8000/api/contacto
   HTTP METHOD: POST
   JSON: {"nombre":"", "correo":"", telefono: 123}
+
 -obtener usuarios:
   END POINT: http://127.0.0.1:8000/api/contacto
   HTTP METHOD: GET
@@ -72,6 +74,7 @@ Flask
   END POINT: http://127.0.0.1:5000/contacto
   HTTP METHOD: POST
   JSON: {"nombre":"", "correo":"", telefono: 123}
+
 -obtener usuarios:
   END POINT: http://127.0.0.1:5000/contacto
   HTTP METHOD: GET
