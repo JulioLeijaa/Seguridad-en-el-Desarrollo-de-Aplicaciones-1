@@ -4,19 +4,19 @@ El Objetivo es conocer la instalación y configuración de los framework, así c
 
 Los 3 frameworks consumen la base de datos en PostgreSQL y, por lo tanto, la misma tabla (contactos).
 
-#Instalaciones.
+##Instalaciones.
 ##PYTHON
--Comenzamos con Python, tenemos que instalar Fask como API con el siguiente comando:
+##Comenzamos con Python, tenemos que instalar Fask como API con el siguiente comando:
   pip install flask-restful
--Instalamos la librería de SQLAlchemy para utilizar la base de datos en PostgreSQL:
+##Instalamos la librería de SQLAlchemy para utilizar la base de datos en PostgreSQL:
   pip install Flask-SQLAlchemy
-
+##
 ##ADONIS
--Una vez clonado el proyecto, instalamos los módulos necesarios de node con:
+##Una vez clonado el proyecto, instalamos los módulos necesarios de node con:
   npm install
--Ahora instalamos el paquete de postgres, con el cual el proyecto podrá utilizar la base de datos:
+##Ahora instalamos el paquete de postgres, con el cual el proyecto podrá utilizar la base de datos:
   npm i postgres
-
+##
 ##LARAVEL
  
  
